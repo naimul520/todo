@@ -10,6 +10,6 @@ db = SQLAlchemy(app)
 app.app_context().push()
 def __repr__(self)->str:
     return f"{self.id}- {self.title}"
-#import the controllers
+#import the controllers and the schema
 from Schema import todo_schema
 from Controllers import *
